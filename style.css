@@ -1,0 +1,538 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: sans-serif;
+}
+
+.title h1 span{
+    color: gold;
+
+}
+    
+
+.title{
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 60px;
+    background-color: rgba(0, 0, 0, 0.991);
+    height: 50px;
+    text-align: center;
+}
+.title ul{
+    display: flex;
+    list-style: none;
+    gap:45px;
+    font-size: 22px;
+}
+.title button{
+    border: none;
+    color:white;
+    background-color: gold;
+    width: 130px;
+    height: 50px;
+    border-radius: 12px;
+}
+.main{
+    background-color: black;
+    height: 460px;
+    padding: 40px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.main-left{
+    color:white;
+    margin-top: 10px;
+
+}
+.main-left h3{
+    color:goldenrod;
+    margin-bottom: 15px;
+    font-size: 15px;
+
+}
+
+.main-left h1{
+    font-size: 64px;
+    margin-bottom: 18px;
+
+}
+.main-left p{
+    width: 500px;
+    font-size: 16px;
+    margin-bottom: 22px;
+}
+.main-left button{
+    border: none;
+    color:white;
+    background-color: gold;
+    width: 130px;
+    height: 45px;
+    border-radius: 10px;
+
+}
+.main-right img {
+    height: 400px;
+
+}
+.hero{
+    padding:40px 60px ;
+    background-color: black;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.zero{
+    display: flex;
+    justify-content: space-between;
+}
+.zero h1{
+    color:white
+}
+.zero i{
+    width: 20px;
+    border:2px solid white;
+    color:white;
+    padding: 6px 1px;
+    padding-left: 10px;
+    padding-right: 5px;
+    border-radius: 30px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+     background-color: black;
+     padding-bottom: 80px;
+    
+}
+.program{
+    padding: 15px 50px;
+    width: 165px;
+    height: 220px;
+    background-color:gray;
+    color:white;
+    border-radius: 14px;
+    margin: 0px 20px;
+    margin-left: 20px;
+    padding-bottom: 50px;
+
+
+}
+.program i{
+    background-color: goldenrod;
+    font-size: 35px;
+    padding: 6px 5px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+.program h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.program p{
+    margin-left: 0px;
+    font-size: 14px;
+    margin-bottom: 15px;
+    padding: 0%;
+
+}
+.program h5{
+    font-size:15px ;
+}
+.double{
+    background-color: black;
+    height: 460px;
+    padding: 30px 100px;
+    display: flex;
+    gap:40px;
+    position: relative;
+    padding-bottom: 100px;
+    
+
+}
+.double-in img {
+    width: 450px;
+    border-radius: 20px;
+
+}
+.double-out{
+    width: 500px;
+    color:white
+}
+.double-out h1{
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+.double-out p{
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.double-out button{
+    border: none;
+    color:white;
+    background-color: gold;
+    width: 130px;
+    height: 45px;
+    border-radius: 10px;
+}
+
+.sui img{
+    position: absolute;
+    width: 300px;
+    left:-100px;
+    bottom: 100px;
+    left: 60px;
+    border-radius: 10px;
+
+}
+.box{
+    background-color: black;
+    padding-top: 40px;
+    text-align: center;
+    color:white;
+}
+.box h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.box p{
+    font-size: 15px;
+    padding-bottom: 50px;
+}
+.tik{
+    background-color: black;
+    height: 590px;
+    text-align: center;
+}
+.train{
+    display: flex;
+    padding: 0px 160px;
+    background-color: black;
+}
+.training img {
+    width: 230px;
+    border-radius: 10px;
+    padding: 10px 30px;
+}
+
+.training{
+    width: 290px;
+    background-color: gray;
+    color:white;
+    border-radius: 11px;
+    margin: 0px 15px;
+    padding: 10px 0px;
+    
+}
+
+.training h1 {
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 28px;
+    color:whitesmoke;
+}
+.training p{
+    text-align: center;
+    font-size: 12px;
+    padding-bottom: 8px;
+
+}
+.meet{
+    background-color: black;
+    padding-top: 40px;
+    text-align: center;
+    color:white;
+
+}
+.meet h1{
+    margin-top: 25px;
+    font-size: 40px; 
+    margin-bottom: 10px;
+}
+.meet p{
+    font-size: 15px;
+    padding-bottom: 50px;
+}
+.manager{
+    background-color: black;
+    padding-bottom: 20px;
+}
+.coach{
+    display: flex;
+    padding: 0px 20px;
+    width: 92%;
+    height: 420px;
+    background-color: silver;
+    margin:0px 22px
+    
+}
+.coaches img {
+    width: 270px;
+    height: 350px;
+    margin: 14px 10px;
+    border-radius: 10px;
+   
+}
+.coaches h1{
+    margin-left: 20px;
+    font-size: 26px;
+    color:black
+}
+.seasion{ 
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    
+
+}
+.s-1{
+    height: 300px;
+    width: 250px;
+    background-color:grey;
+    margin: 0px 30px;
+    padding: 50px 30px;
+    color: whitesmoke;
+    border-radius: 10px;
+
+
+}
+.s-1 h2{
+    font-size: 15px;
+    margin-bottom: 15px;
+
+}
+.s-1 h1{
+    margin-bottom:15px ;
+}
+.s-1 hr{
+    margin-bottom: 30px;
+    color: white;
+    background-color: white;
+    height: 2px;
+}
+.s-1 i{
+    background-color: green;
+    color:white;
+    padding: 2px;
+}
+.s-1 p{
+    padding-bottom: 10px;
+}
+.s-1 button{
+    border: 2px goldenrod solid;
+    color:goldenrod ;
+    background-color: gray;
+    width: 240px;
+    font-size: 15px;
+    padding: 7px 0px;
+    margin-top: 120px;
+
+
+}
+.footer{
+    display: flex;
+    padding: 170px 130px;
+    color:white;
+    background-color: black;
+    justify-content: space-between;
+    
+}
+.footer-left span{
+    color:goldenrod
+
+}
+.footer-left p{
+    width: 360px;
+    margin-top: 15px;
+    
+}
+.footer-left i{
+    margin-top: 20px;
+    background-color: gold;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+
+   
+}
+.footer-center{
+    margin-left: 10px;
+}
+.footer-center h2{
+    padding-bottom: 12px;
+} 
+.footer-center ul,li{
+    list-style: none;
+    padding-top: 10px;
+}
+.footer-center2 h2{
+    padding-bottom: 12px;
+    
+}
+.footer-center2 ul,li{
+    padding-bottom: 12px;
+}
+.footer-right h2{
+    padding-bottom: 12px;
+}
+@media screen and (max-width:600px){
+    .title ul{
+        display: none;
+    }
+    .title h1{
+        text-align: left;
+        font-size: 26px;
+        margin-top: 14px;
+        padding-right: 6px ;
+        
+    }
+    .title {
+        padding: 8px 10px;
+    }
+    .main{
+        flex-direction: column;
+        padding: 20px 15px;
+    }
+    .main-left h1{
+        font-size:40px ;
+    }
+    .main-left p{
+        font-size: 15px;
+        width: 480px;
+    }
+    .zero {
+        padding-top: 170px;
+    }
+    .zero i{
+        display: none;
+    }
+    .zero h1{
+        padding-bottom: 30px;
+    }
+    .center{
+        flex-direction: column;
+        padding: 0px 55px;
+    }
+    .program{
+        margin: 10px;
+        margin: 12px 60px;
+    }
+    .double{
+        flex-direction: column;
+        padding: 0px 5px;
+    }
+    .double-in img{
+        width: 320px;
+        position: absolute;
+        right: 160px;
+    }
+    .double-out{
+        margin-top: 350px;
+        text-align: left;
+        
+    }
+    .double-out h1{
+        text-align: left;
+        margin-right: 20px;
+        font-size: 30px;
+
+    }
+    .double-out button{
+        margin-bottom: 100px;
+    }
+    .double-out p{
+        margin-bottom: 20px;
+        width: 380px;
+        padding: 0px 5px;
+        
+    }
+    .sui img{
+        width: 250px;
+        position: absolute;
+        top:200px;
+        left: 10px;
+        
+    }
+    .box{
+        padding-top: 250px;
+    }
+    .box h1{
+        font-size: 32px;
+    }
+    .box p{
+        font-size: 13px;
+        
+    }
+    .train{
+        flex-direction: column;
+        padding: 0px 160px;
+    }
+    .training{
+        margin-left:  -50px;
+        margin-top: 14px;
+        margin-bottom: 0px;
+        padding-top:0px;
+    }
+    .meet h1{
+        font-size: 25px;
+
+    }
+    .meet p{
+        font-size: 10px;
+    }
+    .coach{
+        flex-direction: column;
+        width: 300px;
+        height: 50%;
+        padding: 10px 25px;
+        margin: 0px 75px;
+    }
+    .coaches img{
+        width: 180px;
+        height: 200px;
+    }
+    .coaches {
+        padding: 10px 60px;
+    }
+    .seasion{
+        flex-direction: column;
+        padding-bottom: 40px;
+    }
+    .s-1{
+        margin: 20px 100px;
+    }
+    .box{
+        padding-bottom: 25px;
+    }
+    .footer{
+        padding: 10px 0px;
+        padding-right: 30px;
+
+    }
+    .footer-left h1{
+        font-size: 25px;
+    }
+    .footer-left p{
+        font-size: 12px;
+        width: 200px;
+    }
+    .footer-center{
+        margin-right: 10px;
+        margin-left: 20px;
+    }
+    .footer-center h2{
+        font-size: 20px;
+    }
+    .footer-center ul,li{
+        font-size: 10px;
+    }
+    
+    .footer-right{
+        padding-right: 100px;
+    }
+    .footer-center2{
+        margin-left:  30px;
+    }
+
+    
+}
